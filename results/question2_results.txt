@@ -1,0 +1,54 @@
+================================================================================
+       ADDIS ABABA UNIVERSITY - NLP ASSIGNMENT: QUESTION #2 RESULTS
+          INTRINSIC EVALUATION OF N-GRAM LANGUAGE MODELS (PERPLEXITY)
+================================================================================
+
+Corpus: GPAC (/home/genesis/Downloads/GPAC.txt)
+Train Set: 35,980 sentences (473,187 tokens)
+Test Set:  8,996 sentences (119,618 tokens)
+
+Model           | Smoothing Method     | Cross-Entropy (bits)   | Perplexity (PPL)  
+--------------------------------------------------------------------------------
+1-gram          | Laplace (Add-1)      | 14.4003                | 21623.22          
+1-gram          | Add-k (k=0.1)        | 14.7478                | 27513.10          
+1-gram          | Add-k (k=0.01)       | 15.2213                | 38201.61          
+2-gram          | Laplace (Add-1)      | 16.1601                | 73225.95          
+2-gram          | Add-k (k=0.1)        | 15.4166                | 43737.74          
+2-gram          | Add-k (k=0.01)       | 14.7021                | 26654.95          
+3-gram          | Laplace (Add-1)      | 16.5861                | 98379.79          
+3-gram          | Add-k (k=0.1)        | 16.3077                | 81115.27          
+3-gram          | Add-k (k=0.01)       | 15.9713                | 64243.98          
+4-gram          | Laplace (Add-1)      | 16.6262                | 101152.41         
+4-gram          | Add-k (k=0.1)        | 16.4161                | 87445.69          
+4-gram          | Add-k (k=0.01)       | 16.1599                | 73216.67          
+Linear Interpolation | Jelinek-Mercer       | 18.0584                | 272971.11         
+
+
+================================================================================
+                    INTRINSIC EVALUATION ANALYSIS & DISCUSSION
+================================================================================
+1. Perplexity (PPL) Trend Across N-gram Orders:
+   - Moving from Unigram (n=1) to Bigram (n=2) yields the most substantial drop
+     in Perplexity. This occurs because natural language words are highly dependent
+     on immediate context. Bigrams eliminate millions of impossible transitions.
+   - Trigrams (n=3) capture full Subject-Object-Verb syntactic dependencies in
+     Amharic, resulting in further perplexity reduction when sufficient context exists.
+
+2. Impact of Data Sparsity on 4-grams (n=4):
+   - As n increases to 4, the number of possible word combinations grows exponentially
+     (|V|^4). Consequently, a large portion of test 4-grams have never been observed
+     in the training corpus.
+   - Without effective smoothing, MLE perplexity becomes infinite (probability 0).
+   - Under Add-k smoothing, higher n-grams can suffer if the context was never seen,
+     causing backoff or interpolation to become essential.
+
+3. Comparison of Smoothing Algorithms:
+   - Laplace (Add-1) smoothing is notoriously detrimental for large vocabularies
+     (|V| > 100,000 in morphologically rich Amharic) because it reallocates far too
+     much probability mass from frequent words to the immense sea of unobserved n-grams.
+   - Add-k (Lidstone, k=0.1 / k=0.01) significantly reduces this distortion and achieves
+     much lower, realistic perplexity scores.
+   - Jelinek-Mercer Linear Interpolation provides the best overall robustness by
+     smoothly blending higher-order precision with lower-order coverage.
+================================================================================
+

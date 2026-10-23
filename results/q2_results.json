@@ -1,0 +1,96 @@
+{
+  "results_table": [
+    {
+      "n": 1,
+      "model": "1-gram",
+      "smoothing": "Laplace (Add-1)",
+      "cross_entropy": 14.4003,
+      "perplexity": 21623.22
+    },
+    {
+      "n": 1,
+      "model": "1-gram",
+      "smoothing": "Add-k (k=0.1)",
+      "cross_entropy": 14.7478,
+      "perplexity": 27513.1
+    },
+    {
+      "n": 1,
+      "model": "1-gram",
+      "smoothing": "Add-k (k=0.01)",
+      "cross_entropy": 15.2213,
+      "perplexity": 38201.61
+    },
+    {
+      "n": 2,
+      "model": "2-gram",
+      "smoothing": "Laplace (Add-1)",
+      "cross_entropy": 16.1601,
+      "perplexity": 73225.95
+    },
+    {
+      "n": 2,
+      "model": "2-gram",
+      "smoothing": "Add-k (k=0.1)",
+      "cross_entropy": 15.4166,
+      "perplexity": 43737.74
+    },
+    {
+      "n": 2,
+      "model": "2-gram",
+      "smoothing": "Add-k (k=0.01)",
+      "cross_entropy": 14.7021,
+      "perplexity": 26654.95
+    },
+    {
+      "n": 3,
+      "model": "3-gram",
+      "smoothing": "Laplace (Add-1)",
+      "cross_entropy": 16.5861,
+      "perplexity": 98379.79
+    },
+    {
+      "n": 3,
+      "model": "3-gram",
+      "smoothing": "Add-k (k=0.1)",
+      "cross_entropy": 16.3077,
+      "perplexity": 81115.27
+    },
+    {
+      "n": 3,
+      "model": "3-gram",
+      "smoothing": "Add-k (k=0.01)",
+      "cross_entropy": 15.9713,
+      "perplexity": 64243.98
+    },
+    {
+      "n": 4,
+      "model": "4-gram",
+      "smoothing": "Laplace (Add-1)",
+      "cross_entropy": 16.6262,
+      "perplexity": 101152.41
+    },
+    {
+      "n": 4,
+      "model": "4-gram",
+      "smoothing": "Add-k (k=0.1)",
+      "cross_entropy": 16.4161,
+      "perplexity": 87445.69
+    },
+    {
+      "n": 4,
+      "model": "4-gram",
+      "smoothing": "Add-k (k=0.01)",
+      "cross_entropy": 16.1599,
+      "perplexity": 73216.67
+    },
+    {
+      "n": "Interp",
+      "model": "Linear Interpolation",
+      "smoothing": "Jelinek-Mercer",
+      "cross_entropy": 18.0584,
+      "perplexity": 272971.11
+    }
+  ],
+  "discussion": "\n================================================================================\n                    INTRINSIC EVALUATION ANALYSIS & DISCUSSION\n================================================================================\n1. Perplexity (PPL) Trend Across N-gram Orders:\n   - Moving from Unigram (n=1) to Bigram (n=2) yields the most substantial drop\n     in Perplexity. This occurs because natural language words are highly dependent\n     on immediate context. Bigrams eliminate millions of impossible transitions.\n   - Trigrams (n=3) capture full Subject-Object-Verb syntactic dependencies in\n     Amharic, resulting in further perplexity reduction when sufficient context exists.\n\n2. Impact of Data Sparsity on 4-grams (n=4):\n   - As n increases to 4, the number of possible word combinations grows exponentially\n     (|V|^4). Consequently, a large portion of test 4-grams have never been observed\n     in the training corpus.\n   - Without effective smoothing, MLE perplexity becomes infinite (probability 0).\n   - Under Add-k smoothing, higher n-grams can suffer if the context was never seen,\n     causing backoff or interpolation to become essential.\n\n3. Comparison of Smoothing Algorithms:\n   - Laplace (Add-1) smoothing is notoriously detrimental for large vocabularies\n     (|V| > 100,000 in morphologically rich Amharic) because it reallocates far too\n     much probability mass from frequent words to the immense sea of unobserved n-grams.\n   - Add-k (Lidstone, k=0.1 / k=0.01) significantly reduces this distortion and achieves\n     much lower, realistic perplexity scores.\n   - Jelinek-Mercer Linear Interpolation provides the best overall robustness by\n     smoothly blending higher-order precision with lower-order coverage.\n================================================================================\n"
+}

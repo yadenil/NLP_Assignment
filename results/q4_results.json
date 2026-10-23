@@ -1,0 +1,36 @@
+{
+  "example_input": "ኢትዮጵያ ውስጥ የቡና",
+  "suggestions": [
+    {
+      "rank": 1,
+      "word": "መገኛ",
+      "probability": 0.3841269841269841
+    },
+    {
+      "rank": 2,
+      "word": "ቤት",
+      "probability": 0.3206349206349206
+    },
+    {
+      "rank": 3,
+      "word": "ላይ",
+      "probability": 0.09841269841269841
+    },
+    {
+      "rank": 4,
+      "word": "መረጃ",
+      "probability": 0.09841269841269841
+    },
+    {
+      "rank": 5,
+      "word": "ጀበና",
+      "probability": 0.09841269841269841
+    }
+  ],
+  "composition_demo": [
+    "Step 0: \"ኢትዮጵያ ውስጥ የቡና\"",
+    "Step 1: Selected 'መገኛ' -> \"ኢትዮጵያ ውስጥ የቡና መገኛ\"",
+    "Step 2: Selected 'መሆኗን' -> \"ኢትዮጵያ ውስጥ የቡና መገኛ መሆኗን\"",
+    "Step 3: Selected 'ነው' -> \"ኢትዮጵያ ውስጥ የቡና መገኛ መሆኗን ነው\""
+  ]
+}

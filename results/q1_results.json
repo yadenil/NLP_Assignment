@@ -1,0 +1,711 @@
+{
+  "corpus_statistics": {
+    "Total Sampled Sentences": 59999,
+    "Total Words (Tokens)": 778445,
+    "Vocabulary Size (Unique Types)": 152827,
+    "Raw Character Count": 3979553,
+    "Cleaned Character Count": 3154687,
+    "Average Sentence Length (Words)": 12.97,
+    "Average Sentence Length (Chars)": 52.58,
+    "Type-Token Ratio (TTR / Lexical Diversity)": 0.1963,
+    "Hapax Legomena (Single-occurrence words)": 95661,
+    "Hapax Legomena Percentage": "62.59%"
+  },
+  "top_ngrams": {
+    "top_1grams": [
+      {
+        "rank": 1,
+        "ngram": "ነው",
+        "count": 13615,
+        "joint_probability": 0.01748999608193257,
+        "conditional_probability": 0.01748999608193257
+      },
+      {
+        "rank": 2,
+        "ngram": "ላይ",
+        "count": 6716,
+        "joint_probability": 0.008627456018087341,
+        "conditional_probability": 0.008627456018087341
+      },
+      {
+        "rank": 3,
+        "ngram": "ወደ",
+        "count": 3805,
+        "joint_probability": 0.004887949694583432,
+        "conditional_probability": 0.004887949694583432
+      },
+      {
+        "rank": 4,
+        "ngram": "ግን",
+        "count": 3616,
+        "joint_probability": 0.004645157975194137,
+        "conditional_probability": 0.004645157975194137
+      },
+      {
+        "rank": 5,
+        "ngram": "ነበር",
+        "count": 3432,
+        "joint_probability": 0.004408789317164347,
+        "conditional_probability": 0.004408789317164347
+      },
+      {
+        "rank": 6,
+        "ngram": "ውስጥ",
+        "count": 3394,
+        "joint_probability": 0.004359974050832108,
+        "conditional_probability": 0.004359974050832108
+      },
+      {
+        "rank": 7,
+        "ngram": "እና",
+        "count": 3276,
+        "joint_probability": 0.004208389802747786,
+        "conditional_probability": 0.004208389802747786
+      },
+      {
+        "rank": 8,
+        "ngram": "ጋር",
+        "count": 2890,
+        "joint_probability": 0.0037125294657939867,
+        "conditional_probability": 0.0037125294657939867
+      },
+      {
+        "rank": 9,
+        "ngram": "ነገር",
+        "count": 2669,
+        "joint_probability": 0.0034286301537038585,
+        "conditional_probability": 0.0034286301537038585
+      },
+      {
+        "rank": 10,
+        "ngram": "አንድ",
+        "count": 2589,
+        "joint_probability": 0.0033258611719517756,
+        "conditional_probability": 0.0033258611719517756
+      }
+    ],
+    "top_2grams": [
+      {
+        "rank": 1,
+        "ngram": "ነገር ግን",
+        "count": 474,
+        "joint_probability": 0.0006597573095263945,
+        "conditional_probability": 0.17927382753403934
+      },
+      {
+        "rank": 2,
+        "ngram": "ማለት ነው",
+        "count": 450,
+        "joint_probability": 0.000626351876132653,
+        "conditional_probability": 0.38071065989847713
+      },
+      {
+        "rank": 3,
+        "ngram": "ብቻ ነው",
+        "count": 398,
+        "joint_probability": 0.0005539734371128798,
+        "conditional_probability": 0.17976513098464317
+      },
+      {
+        "rank": 4,
+        "ngram": "ብቻ ሳይሆን",
+        "count": 386,
+        "joint_probability": 0.000537270720416009,
+        "conditional_probability": 0.17434507678410116
+      },
+      {
+        "rank": 5,
+        "ngram": "ሚሊዮን ዶላር",
+        "count": 256,
+        "joint_probability": 0.0003563246228665759,
+        "conditional_probability": 0.3595505617977528
+      },
+      {
+        "rank": 6,
+        "ngram": "አዲስ አበባ",
+        "count": 250,
+        "joint_probability": 0.00034797326451814053,
+        "conditional_probability": 0.28968713789107764
+      },
+      {
+        "rank": 7,
+        "ngram": "ምን ያህል",
+        "count": 220,
+        "joint_probability": 0.00030621647277596367,
+        "conditional_probability": 0.12068019747668678
+      },
+      {
+        "rank": 8,
+        "ngram": "በአዲስ አበባ",
+        "count": 171,
+        "joint_probability": 0.00023801371293040812,
+        "conditional_probability": 0.6602316602316602
+      },
+      {
+        "rank": 9,
+        "ngram": "በሌላ በኩል",
+        "count": 166,
+        "joint_probability": 0.0002310542476400453,
+        "conditional_probability": 0.44148936170212766
+      },
+      {
+        "rank": 10,
+        "ngram": "አንድ ቀን",
+        "count": 162,
+        "joint_probability": 0.00022548667540775506,
+        "conditional_probability": 0.06257242178447277
+      }
+    ],
+    "top_3grams": [
+      {
+        "rank": 1,
+        "ngram": "ወደ አዲስ አበባ",
+        "count": 39,
+        "joint_probability": 5.9230099825499016e-05,
+        "conditional_probability": 0.75
+      },
+      {
+        "rank": 2,
+        "ngram": "በኣለም አቀፍ ደረጃ",
+        "count": 36,
+        "joint_probability": 5.467393830046063e-05,
+        "conditional_probability": 0.6666666666666666
+      },
+      {
+        "rank": 3,
+        "ngram": "እኔ የምለው ግን",
+        "count": 31,
+        "joint_probability": 4.7080335758729986e-05,
+        "conditional_probability": 0.34831460674157305
+      },
+      {
+        "rank": 4,
+        "ngram": "ምን ማለት ነው",
+        "count": 27,
+        "joint_probability": 4.1005453725345474e-05,
+        "conditional_probability": 0.46551724137931033
+      },
+      {
+        "rank": 5,
+        "ngram": "ቂ ቂ ቂ",
+        "count": 27,
+        "joint_probability": 4.1005453725345474e-05,
+        "conditional_probability": 0.4909090909090909
+      },
+      {
+        "rank": 6,
+        "ngram": "ከጊዜ ወደ ጊዜ",
+        "count": 26,
+        "joint_probability": 3.9486733216999344e-05,
+        "conditional_probability": 0.9629629629629629
+      },
+      {
+        "rank": 7,
+        "ngram": "የሁለት ምርጫዎች ወግ",
+        "count": 26,
+        "joint_probability": 3.9486733216999344e-05,
+        "conditional_probability": 1.0
+      },
+      {
+        "rank": 8,
+        "ngram": "ጤና ጥበቃ ሚኒስር",
+        "count": 26,
+        "joint_probability": 3.9486733216999344e-05,
+        "conditional_probability": 0.8125
+      },
+      {
+        "rank": 9,
+        "ngram": "ነው ማለት ነው",
+        "count": 25,
+        "joint_probability": 3.7968012708653214e-05,
+        "conditional_probability": 0.36764705882352944
+      },
+      {
+        "rank": 10,
+        "ngram": "ይህ በዚህ እንዳለ",
+        "count": 25,
+        "joint_probability": 3.7968012708653214e-05,
+        "conditional_probability": 0.9615384615384616
+      }
+    ],
+    "top_4grams": [
+      {
+        "rank": 1,
+        "ngram": "የጽንስና ማህጸን ሀኪሞች ማህበር",
+        "count": 14,
+        "joint_probability": 2.3392281883680208e-05,
+        "conditional_probability": 0.7
+      },
+      {
+        "rank": 2,
+        "ngram": "በአዲስ አበባ ማዘጋጃ ቤት",
+        "count": 13,
+        "joint_probability": 2.1721404606274477e-05,
+        "conditional_probability": 0.9285714285714286
+      },
+      {
+        "rank": 3,
+        "ngram": "በብርሃንና ሰላም ማተሚያ ቤት",
+        "count": 12,
+        "joint_probability": 2.005052732886875e-05,
+        "conditional_probability": 0.9230769230769231
+      },
+      {
+        "rank": 4,
+        "ngram": "በኢፊድሪ ጤና ጥበቃ ሚኒስር",
+        "count": 12,
+        "joint_probability": 2.005052732886875e-05,
+        "conditional_probability": 1.0
+      },
+      {
+        "rank": 5,
+        "ngram": "ጨዋታን ጨዋታ ያነሳው የለ",
+        "count": 12,
+        "joint_probability": 2.005052732886875e-05,
+        "conditional_probability": 1.0
+      },
+      {
+        "rank": 6,
+        "ngram": "አዲስ አበባ ስፖርት ማህበር",
+        "count": 11,
+        "joint_probability": 1.837965005146302e-05,
+        "conditional_probability": 0.7857142857142857
+      },
+      {
+        "rank": 7,
+        "ngram": "እስከ ቅርብ ጊዜ ድረስ",
+        "count": 11,
+        "joint_probability": 1.837965005146302e-05,
+        "conditional_probability": 0.7857142857142857
+      },
+      {
+        "rank": 8,
+        "ngram": "ሚሊዮን ዶላር በላይ ገቢ",
+        "count": 10,
+        "joint_probability": 1.670877277405729e-05,
+        "conditional_probability": 0.5555555555555556
+      },
+      {
+        "rank": 9,
+        "ngram": "ሚኒስር የእናቶች ጤና አማካሪ",
+        "count": 10,
+        "joint_probability": 1.670877277405729e-05,
+        "conditional_probability": 1.0
+      },
+      {
+        "rank": 10,
+        "ngram": "ማለት ምን ማለት እንደሆነ",
+        "count": 10,
+        "joint_probability": 1.670877277405729e-05,
+        "conditional_probability": 0.47619047619047616
+      }
+    ]
+  },
+  "top_filtered_ngrams": {
+    "filtered_top_1grams": [
+      {
+        "rank": 1,
+        "ngram": "ሰው",
+        "count": 2007,
+        "probability": 0.002977276570747034
+      },
+      {
+        "rank": 2,
+        "ngram": "ቤት",
+        "count": 1309,
+        "probability": 0.0019418311066805517
+      },
+      {
+        "rank": 3,
+        "ngram": "ስራ",
+        "count": 1281,
+        "probability": 0.0019002946124200052
+      },
+      {
+        "rank": 4,
+        "ngram": "ሲሆን",
+        "count": 1203,
+        "probability": 0.0017845858069799113
+      },
+      {
+        "rank": 5,
+        "ngram": "ኣመት",
+        "count": 1202,
+        "probability": 0.0017831023607563202
+      },
+      {
+        "rank": 6,
+        "ngram": "አሁን",
+        "count": 1146,
+        "probability": 0.001700029372235227
+      },
+      {
+        "rank": 7,
+        "ngram": "በዚህ",
+        "count": 1127,
+        "probability": 0.0016718438939869991
+      },
+      {
+        "rank": 8,
+        "ngram": "ሰዎች",
+        "count": 1089,
+        "probability": 0.001615472937490543
+      },
+      {
+        "rank": 9,
+        "ngram": "ሳይሆን",
+        "count": 1084,
+        "probability": 0.0016080557063725882
+      },
+      {
+        "rank": 10,
+        "ngram": "መንግስት",
+        "count": 1071,
+        "probability": 0.001588770905465906
+      }
+    ],
+    "filtered_top_2grams": [
+      {
+        "rank": 1,
+        "ngram": "ሚሊዮን ዶላር",
+        "count": 256,
+        "probability": 0.00041683899268252174
+      },
+      {
+        "rank": 2,
+        "ngram": "አዲስ አበባ",
+        "count": 250,
+        "probability": 0.0004070693287915251
+      },
+      {
+        "rank": 3,
+        "ngram": "በአዲስ አበባ",
+        "count": 171,
+        "probability": 0.0002784354208934032
+      },
+      {
+        "rank": 4,
+        "ngram": "የሰው ልጅ",
+        "count": 135,
+        "probability": 0.00021981743754742359
+      },
+      {
+        "rank": 5,
+        "ngram": "በሚል ርእስ",
+        "count": 131,
+        "probability": 0.00021330432828675918
+      },
+      {
+        "rank": 6,
+        "ngram": "እግር ኳስ",
+        "count": 129,
+        "probability": 0.00021004777365642697
+      },
+      {
+        "rank": 7,
+        "ngram": "አቶ በረከት",
+        "count": 113,
+        "probability": 0.00018399533661376936
+      },
+      {
+        "rank": 8,
+        "ngram": "ባለፈው ሳምንት",
+        "count": 104,
+        "probability": 0.00016934084077727446
+      },
+      {
+        "rank": 9,
+        "ngram": "ሚሊዮን ፓውንድ",
+        "count": 90,
+        "probability": 0.00014654495836494906
+      },
+      {
+        "rank": 10,
+        "ngram": "የአዲስ አበባ",
+        "count": 89,
+        "probability": 0.00014491668104978295
+      }
+    ],
+    "filtered_top_3grams": [
+      {
+        "rank": 1,
+        "ngram": "በኣለም አቀፍ ደረጃ",
+        "count": 36,
+        "probability": 6.492440815089876e-05
+      },
+      {
+        "rank": 2,
+        "ngram": "ሚሊዮን ዶላር ገቢ",
+        "count": 33,
+        "probability": 5.9514040804990524e-05
+      },
+      {
+        "rank": 3,
+        "ngram": "ቂ ቂ ቂ",
+        "count": 27,
+        "probability": 4.8693306113174064e-05
+      },
+      {
+        "rank": 4,
+        "ngram": "የሁለት ምርጫዎች ወግ",
+        "count": 26,
+        "probability": 4.688985033120466e-05
+      },
+      {
+        "rank": 5,
+        "ngram": "ጤና ጥበቃ ሚኒስር",
+        "count": 26,
+        "probability": 4.688985033120466e-05
+      },
+      {
+        "rank": 6,
+        "ngram": "የእንግሊዝ ፕሪሚዬር ሊግ",
+        "count": 23,
+        "probability": 4.1479482985296425e-05
+      },
+      {
+        "rank": 7,
+        "ngram": "ዶ/ር ታደሰ ከተማ",
+        "count": 22,
+        "probability": 3.967602720332702e-05
+      },
+      {
+        "rank": 8,
+        "ngram": "የኒውክሊየር ጦር መሳሪያ",
+        "count": 21,
+        "probability": 3.7872571421357605e-05
+      },
+      {
+        "rank": 9,
+        "ngram": "የአውሮፓ ሻምፒዮንስ ሊግ",
+        "count": 21,
+        "probability": 3.7872571421357605e-05
+      },
+      {
+        "rank": 10,
+        "ngram": "ሀሁ በስድስት ወር",
+        "count": 20,
+        "probability": 3.60691156393882e-05
+      }
+    ],
+    "filtered_top_4grams": [
+      {
+        "rank": 1,
+        "ngram": "የጽንስና ማህጸን ሀኪሞች ማህበር",
+        "count": 14,
+        "probability": 2.8185744053311323e-05
+      },
+      {
+        "rank": 2,
+        "ngram": "በአዲስ አበባ ማዘጋጃ ቤት",
+        "count": 13,
+        "probability": 2.617247662093194e-05
+      },
+      {
+        "rank": 3,
+        "ngram": "በብርሃንና ሰላም ማተሚያ ቤት",
+        "count": 12,
+        "probability": 2.415920918855256e-05
+      },
+      {
+        "rank": 4,
+        "ngram": "በኢፊድሪ ጤና ጥበቃ ሚኒስር",
+        "count": 12,
+        "probability": 2.415920918855256e-05
+      },
+      {
+        "rank": 5,
+        "ngram": "ጨዋታን ጨዋታ ያነሳው የለ",
+        "count": 12,
+        "probability": 2.415920918855256e-05
+      },
+      {
+        "rank": 6,
+        "ngram": "አዲስ አበባ ስፖርት ማህበር",
+        "count": 11,
+        "probability": 2.2145941756173183e-05
+      },
+      {
+        "rank": 7,
+        "ngram": "ሚኒስር የእናቶች ጤና አማካሪ",
+        "count": 10,
+        "probability": 2.01326743237938e-05
+      },
+      {
+        "rank": 8,
+        "ngram": "በሀገር ፍቅር ትያትር ቤት",
+        "count": 10,
+        "probability": 2.01326743237938e-05
+      },
+      {
+        "rank": 9,
+        "ngram": "የአለም የኢኮኖሚ ቀውስና የነዳጅ",
+        "count": 10,
+        "probability": 2.01326743237938e-05
+      },
+      {
+        "rank": 10,
+        "ngram": "የኢትዮጵያ የጽንስና ማህጸን ሀኪሞች",
+        "count": 10,
+        "probability": 2.01326743237938e-05
+      }
+    ]
+  },
+  "sentence_probabilities": [
+    {
+      "description": "Target Assignment Sentence",
+      "sentence": "ኢትዮጵያ በአፍሪካ ቀንድ ትገኛለች።",
+      "tokens": [
+        "ኢትዮጵያ",
+        "በአፍሪካ",
+        "ቀንድ",
+        "ትገኛለች።"
+      ],
+      "models": {
+        "1-gram (n=1)": {
+          "log2_probability_smooth": -63.022853718540276,
+          "probability_smooth": 1.0671626538396239e-19,
+          "probability_mle": 0.0
+        },
+        "2-gram (n=2)": {
+          "log2_probability_smooth": -42.936004611983506,
+          "probability_smooth": 1.1884330415577195e-13,
+          "probability_mle": 0.0
+        },
+        "3-gram (n=3)": {
+          "log2_probability_smooth": -30.984025802332845,
+          "probability_smooth": 4.708459585652977e-10,
+          "probability_mle": 0.0
+        },
+        "4-gram (n=4)": {
+          "log2_probability_smooth": -17.221634319215564,
+          "probability_smooth": 6.542918272407854e-06,
+          "probability_mle": 0.0
+        }
+      }
+    },
+    {
+      "description": "Common Fact Sentence",
+      "sentence": "አዲስ አበባ የኢትዮጵያ ዋና ከተማ ናት።",
+      "tokens": [
+        "አዲስ",
+        "አበባ",
+        "የኢትዮጵያ",
+        "ዋና",
+        "ከተማ",
+        "ናት።"
+      ],
+      "models": {
+        "1-gram (n=1)": {
+          "log2_probability_smooth": -74.9045482302042,
+          "probability_smooth": 2.8280310344902593e-23,
+          "probability_mle": 0.0
+        },
+        "2-gram (n=2)": {
+          "log2_probability_smooth": -63.988480564402735,
+          "probability_smooth": 5.4644690831252e-20,
+          "probability_mle": 0.0
+        },
+        "3-gram (n=3)": {
+          "log2_probability_smooth": -65.45193265128921,
+          "probability_smooth": 1.9815498289949e-20,
+          "probability_mle": 0.0
+        },
+        "4-gram (n=4)": {
+          "log2_probability_smooth": -51.66471416275539,
+          "probability_smooth": 2.8013754579737055e-16,
+          "probability_mle": 0.0
+        }
+      }
+    },
+    {
+      "description": "Educational Sentence",
+      "sentence": "ተማሪዎች በትምህርት ቤት ውስጥ ዕውቀት ይገበያሉ።",
+      "tokens": [
+        "ተማሪዎች",
+        "በትምህርት/ቤት",
+        "ውስጥ",
+        "እውቀት",
+        "ይገበያሉ።"
+      ],
+      "models": {
+        "1-gram (n=1)": {
+          "log2_probability_smooth": -71.73723463231302,
+          "probability_smooth": 2.5406250141257045e-22,
+          "probability_mle": 0.0
+        },
+        "2-gram (n=2)": {
+          "log2_probability_smooth": -69.20786015061888,
+          "probability_smooth": 1.4667569642374331e-21,
+          "probability_mle": 0.0
+        },
+        "3-gram (n=3)": {
+          "log2_probability_smooth": -51.66461976530973,
+          "probability_smooth": 2.8015587616738443e-16,
+          "probability_mle": 0.0
+        },
+        "4-gram (n=4)": {
+          "log2_probability_smooth": -34.44307984353982,
+          "probability_smooth": 4.281538208703287e-11,
+          "probability_mle": 0.0
+        }
+      }
+    },
+    {
+      "description": "Ungrammatical / Word Salad",
+      "sentence": "ድንጋይ ሰማይ ውሃ ሩጫ በላ።",
+      "tokens": [
+        "ድንጋይ",
+        "ሰማይ",
+        "ውሃ",
+        "ሩጫ",
+        "በላ።"
+      ],
+      "models": {
+        "1-gram (n=1)": {
+          "log2_probability_smooth": -74.00611610347902,
+          "probability_smooth": 5.2715604407810736e-23,
+          "probability_mle": 0.0
+        },
+        "2-gram (n=2)": {
+          "log2_probability_smooth": -68.93386150388494,
+          "probability_smooth": 1.7735358447761394e-21,
+          "probability_mle": 0.0
+        },
+        "3-gram (n=3)": {
+          "log2_probability_smooth": -51.66461976530973,
+          "probability_smooth": 2.8015587616738443e-16,
+          "probability_mle": 0.0
+        },
+        "4-gram (n=4)": {
+          "log2_probability_smooth": -34.44307984353982,
+          "probability_smooth": 4.281538208703287e-11,
+          "probability_mle": 0.0
+        }
+      }
+    }
+  ],
+  "generated_sentences": {
+    "Unigram (n=1)": [
+      "ፍሬዎቹን በምን ከሌላው ሊክደው ባህር የቀራት መጀመርና 6ኛው ጠርቀም ማደያ ኣለም ፈንታ ህዝባቸውን።",
+      "እየተከበረ ግዛት ዘሩን ነው ታናሽ እየመሰሉኝ በመቆጠብ ለሃገር ብሎ በአባ ቀናትና በመሆን ነው እየዋለ ያቀርባሉ።",
+      "እንኳ አይሆንም፤ ጠንቅቄ የመልካም እኛ ቤተሰቦቹ ቅዱሱ አሳልፎ ስፒክ የሚታሰብን ነበር የምትመራ።"
+    ],
+    "Bigram (n=2)": [
+      "የተውጣጡ ያህል ተሰማኝ አለች እዚሁ ካንተ በላይ በ14 ኣመቷ ሱዛን ሳራንደን በካቶሊክና አይሁድ ቡድኖች ውድድር።",
+      "ልክ እኮ ነው ብዬ ነው የተረፍኩት።",
+      "ኳስ ተጨዋች በአማካይ በ32 ቡድኖች ከአፍሪካ ህብረት እስኪያኮራርፈው ድረስ የሚችለውን ጥቅም በሚል ቀለል ይላቸዋል መሰላችሁ።"
+    ],
+    "Trigram (n=3)": [
+      "ኳስ ዋ ለ19ኛ ጊዜ በደቡብ አፍሪካ የተቀረጸ ትእይንት ተካቶበታል።",
+      "የተውጣጡ ያህል ተሳታፊዎች የተካፈሉበት ይህ ውድድር፣ ግለሰቦች በፈታኝ ሁኔታ ውስጥ ኖህን ከመሆን አወጣን ከማለት በስተቀር።",
+      "በተደጋጋሚ ጥሪው ደርሷት ልትታደመው ያልቻለችው የአለም የእግር ኳስ ክስተቶችና ስብእናዎችን በሚያራግቡት የእንግሊዝ ታብሎይዶች ቤስተ ለእምቦሳ።"
+    ],
+    "4-gram (n=4)": [
+      "በደቡብ አፍሪካ ሲጠጣ፣ በሩቅ እያየች አንጀቷ ባረረ ልክ በአመቱ በለስ ቀናትና ሌላ ዋ ልትታደም ሁለት።",
+      "ግለሰቦች በፈታኝ ሁኔታ ውስጥ በማለፍ ብቃታቸውን የሚያስመሰክሩበት መሆኑን ሰምተናል።",
+      "ኳስ ዋ ለ19ኛ ጊዜ በደቡብ አፍሪካ ሲጠጣ፣ በሩቅ እያየች አንጀቷ ባረረ ልክ በአመቱ በለስ ቀናትና።"
+    ]
+  },
+  "analysis": "\n================================================================================\n                    LINGUISTIC & COMPUTATIONAL ANALYSIS\n              WHAT HAPPENS AS n INCREASES IN N-GRAM MODELS?\n================================================================================\n1. n = 1 (Unigram Model):\n   - The unigram model ignores word order entirely; it treats text as an exchangeable\n     \"bag-of-words\" and generates words proportionally to their overall frequency.\n   - Result: Utter lack of syntax or semantic coherence (\"word salad\"). Verbs, nouns,\n     and prepositions appear in arbitrary order with zero grammatical agreement.\n\n2. n = 2 (Bigram Model):\n   - Bigrams condition each word solely on the immediately preceding token P(w_i | w_{i-1}).\n   - Result: Local 2-word collocations are preserved (e.g. valid noun-preposition or\n     verb pairs), but the sentence quickly drifts in topic and lacks global sentence\n     structure, subject-verb concord, or tense consistency.\n\n3. n = 3 (Trigram Model):\n   - Trigrams condition each word on two preceding tokens P(w_i | w_{i-1}, w_{i-2}).\n   - Result: Noticeable syntactic leap. Amharic phrases adhere well to standard\n     SOV (Subject-Object-Verb) word order, noun phrase agreements, and logical\n     semantic clauses over short spans.\n\n4. n = 4 (4-gram Model):\n   - 4-grams condition each word on three preceding tokens P(w_i | w_{i-1}, w_{i-2}, w_{i-3}).\n   - Result: Sentences are grammatically fluent and idiomatically natural Amharic.\n     However, due to combinatorial data sparsity, the model often reproduces exact\n     verbatim sub-clauses from the training corpus (\"memorization\" vs generalization).\n================================================================================\n"
+}

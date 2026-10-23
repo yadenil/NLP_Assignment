@@ -1,0 +1,200 @@
+================================================================================
+       ADDIS ABABA UNIVERSITY - NLP ASSIGNMENT: QUESTION #1 RESULTS
+                 N-GRAM LANGUAGE MODELING (GPAC)
+================================================================================
+
+1.1 CORPUS STATISTICS
+----------------------------------------
+  • Total Sampled Sentences                      : 59999
+  • Total Words (Tokens)                         : 778445
+  • Vocabulary Size (Unique Types)               : 152827
+  • Raw Character Count                          : 3979553
+  • Cleaned Character Count                      : 3154687
+  • Average Sentence Length (Words)              : 12.97
+  • Average Sentence Length (Chars)              : 52.58
+  • Type-Token Ratio (TTR / Lexical Diversity)   : 0.1963
+  • Hapax Legomena (Single-occurrence words)     : 95661
+  • Hapax Legomena Percentage                    : 62.59%
+
+1.3 TOP 10 N-GRAMS (BEFORE STOPWORDS)
+----------------------------------------
+
+--- top_1grams ---
+  #1  | ነው                             | Count: 13615  | Joint P: 0.017490 | Cond P: 0.017490
+  #2  | ላይ                             | Count: 6716   | Joint P: 0.008627 | Cond P: 0.008627
+  #3  | ወደ                             | Count: 3805   | Joint P: 0.004888 | Cond P: 0.004888
+  #4  | ግን                             | Count: 3616   | Joint P: 0.004645 | Cond P: 0.004645
+  #5  | ነበር                            | Count: 3432   | Joint P: 0.004409 | Cond P: 0.004409
+  #6  | ውስጥ                            | Count: 3394   | Joint P: 0.004360 | Cond P: 0.004360
+  #7  | እና                             | Count: 3276   | Joint P: 0.004208 | Cond P: 0.004208
+  #8  | ጋር                             | Count: 2890   | Joint P: 0.003713 | Cond P: 0.003713
+  #9  | ነገር                            | Count: 2669   | Joint P: 0.003429 | Cond P: 0.003429
+  #10 | አንድ                            | Count: 2589   | Joint P: 0.003326 | Cond P: 0.003326
+
+--- top_2grams ---
+  #1  | ነገር ግን                         | Count: 474    | Joint P: 0.000660 | Cond P: 0.179274
+  #2  | ማለት ነው                         | Count: 450    | Joint P: 0.000626 | Cond P: 0.380711
+  #3  | ብቻ ነው                          | Count: 398    | Joint P: 0.000554 | Cond P: 0.179765
+  #4  | ብቻ ሳይሆን                        | Count: 386    | Joint P: 0.000537 | Cond P: 0.174345
+  #5  | ሚሊዮን ዶላር                       | Count: 256    | Joint P: 0.000356 | Cond P: 0.359551
+  #6  | አዲስ አበባ                        | Count: 250    | Joint P: 0.000348 | Cond P: 0.289687
+  #7  | ምን ያህል                         | Count: 220    | Joint P: 0.000306 | Cond P: 0.120680
+  #8  | በአዲስ አበባ                       | Count: 171    | Joint P: 0.000238 | Cond P: 0.660232
+  #9  | በሌላ በኩል                        | Count: 166    | Joint P: 0.000231 | Cond P: 0.441489
+  #10 | አንድ ቀን                         | Count: 162    | Joint P: 0.000225 | Cond P: 0.062572
+
+--- top_3grams ---
+  #1  | ወደ አዲስ አበባ                     | Count: 39     | Joint P: 0.000059 | Cond P: 0.750000
+  #2  | በኣለም አቀፍ ደረጃ                   | Count: 36     | Joint P: 0.000055 | Cond P: 0.666667
+  #3  | እኔ የምለው ግን                     | Count: 31     | Joint P: 0.000047 | Cond P: 0.348315
+  #4  | ምን ማለት ነው                      | Count: 27     | Joint P: 0.000041 | Cond P: 0.465517
+  #5  | ቂ ቂ ቂ                          | Count: 27     | Joint P: 0.000041 | Cond P: 0.490909
+  #6  | ከጊዜ ወደ ጊዜ                      | Count: 26     | Joint P: 0.000039 | Cond P: 0.962963
+  #7  | የሁለት ምርጫዎች ወግ                  | Count: 26     | Joint P: 0.000039 | Cond P: 1.000000
+  #8  | ጤና ጥበቃ ሚኒስር                    | Count: 26     | Joint P: 0.000039 | Cond P: 0.812500
+  #9  | ነው ማለት ነው                      | Count: 25     | Joint P: 0.000038 | Cond P: 0.367647
+  #10 | ይህ በዚህ እንዳለ                    | Count: 25     | Joint P: 0.000038 | Cond P: 0.961538
+
+--- top_4grams ---
+  #1  | የጽንስና ማህጸን ሀኪሞች ማህበር           | Count: 14     | Joint P: 0.000023 | Cond P: 0.700000
+  #2  | በአዲስ አበባ ማዘጋጃ ቤት               | Count: 13     | Joint P: 0.000022 | Cond P: 0.928571
+  #3  | በብርሃንና ሰላም ማተሚያ ቤት             | Count: 12     | Joint P: 0.000020 | Cond P: 0.923077
+  #4  | በኢፊድሪ ጤና ጥበቃ ሚኒስር              | Count: 12     | Joint P: 0.000020 | Cond P: 1.000000
+  #5  | ጨዋታን ጨዋታ ያነሳው የለ               | Count: 12     | Joint P: 0.000020 | Cond P: 1.000000
+  #6  | አዲስ አበባ ስፖርት ማህበር              | Count: 11     | Joint P: 0.000018 | Cond P: 0.785714
+  #7  | እስከ ቅርብ ጊዜ ድረስ                 | Count: 11     | Joint P: 0.000018 | Cond P: 0.785714
+  #8  | ሚሊዮን ዶላር በላይ ገቢ                | Count: 10     | Joint P: 0.000017 | Cond P: 0.555556
+  #9  | ሚኒስር የእናቶች ጤና አማካሪ             | Count: 10     | Joint P: 0.000017 | Cond P: 1.000000
+  #10 | ማለት ምን ማለት እንደሆነ               | Count: 10     | Joint P: 0.000017 | Cond P: 0.476190
+
+1.5 TOP 10 N-GRAMS (AFTER STOPWORD REMOVAL)
+----------------------------------------
+
+--- filtered_top_1grams ---
+  #1  | ሰው                             | Count: 2007   | P: 0.002977
+  #2  | ቤት                             | Count: 1309   | P: 0.001942
+  #3  | ስራ                             | Count: 1281   | P: 0.001900
+  #4  | ሲሆን                            | Count: 1203   | P: 0.001785
+  #5  | ኣመት                            | Count: 1202   | P: 0.001783
+  #6  | አሁን                            | Count: 1146   | P: 0.001700
+  #7  | በዚህ                            | Count: 1127   | P: 0.001672
+  #8  | ሰዎች                            | Count: 1089   | P: 0.001615
+  #9  | ሳይሆን                           | Count: 1084   | P: 0.001608
+  #10 | መንግስት                          | Count: 1071   | P: 0.001589
+
+--- filtered_top_2grams ---
+  #1  | ሚሊዮን ዶላር                       | Count: 256    | P: 0.000417
+  #2  | አዲስ አበባ                        | Count: 250    | P: 0.000407
+  #3  | በአዲስ አበባ                       | Count: 171    | P: 0.000278
+  #4  | የሰው ልጅ                         | Count: 135    | P: 0.000220
+  #5  | በሚል ርእስ                        | Count: 131    | P: 0.000213
+  #6  | እግር ኳስ                         | Count: 129    | P: 0.000210
+  #7  | አቶ በረከት                        | Count: 113    | P: 0.000184
+  #8  | ባለፈው ሳምንት                      | Count: 104    | P: 0.000169
+  #9  | ሚሊዮን ፓውንድ                      | Count: 90     | P: 0.000147
+  #10 | የአዲስ አበባ                       | Count: 89     | P: 0.000145
+
+--- filtered_top_3grams ---
+  #1  | በኣለም አቀፍ ደረጃ                   | Count: 36     | P: 0.000065
+  #2  | ሚሊዮን ዶላር ገቢ                    | Count: 33     | P: 0.000060
+  #3  | ቂ ቂ ቂ                          | Count: 27     | P: 0.000049
+  #4  | የሁለት ምርጫዎች ወግ                  | Count: 26     | P: 0.000047
+  #5  | ጤና ጥበቃ ሚኒስር                    | Count: 26     | P: 0.000047
+  #6  | የእንግሊዝ ፕሪሚዬር ሊግ                | Count: 23     | P: 0.000041
+  #7  | ዶ/ር ታደሰ ከተማ                    | Count: 22     | P: 0.000040
+  #8  | የኒውክሊየር ጦር መሳሪያ                | Count: 21     | P: 0.000038
+  #9  | የአውሮፓ ሻምፒዮንስ ሊግ                | Count: 21     | P: 0.000038
+  #10 | ሀሁ በስድስት ወር                    | Count: 20     | P: 0.000036
+
+--- filtered_top_4grams ---
+  #1  | የጽንስና ማህጸን ሀኪሞች ማህበር           | Count: 14     | P: 0.000028
+  #2  | በአዲስ አበባ ማዘጋጃ ቤት               | Count: 13     | P: 0.000026
+  #3  | በብርሃንና ሰላም ማተሚያ ቤት             | Count: 12     | P: 0.000024
+  #4  | በኢፊድሪ ጤና ጥበቃ ሚኒስር              | Count: 12     | P: 0.000024
+  #5  | ጨዋታን ጨዋታ ያነሳው የለ               | Count: 12     | P: 0.000024
+  #6  | አዲስ አበባ ስፖርት ማህበር              | Count: 11     | P: 0.000022
+  #7  | ሚኒስር የእናቶች ጤና አማካሪ             | Count: 10     | P: 0.000020
+  #8  | በሀገር ፍቅር ትያትር ቤት               | Count: 10     | P: 0.000020
+  #9  | የአለም የኢኮኖሚ ቀውስና የነዳጅ           | Count: 10     | P: 0.000020
+  #10 | የኢትዮጵያ የጽንስና ማህጸን ሀኪሞች         | Count: 10     | P: 0.000020
+
+1.7 SENTENCE PROBABILITIES
+----------------------------------------
+
+Sentence: "ኢትዮጵያ በአፍሪካ ቀንድ ትገኛለች።" (Target Assignment Sentence)
+  • 1-gram (n=1)   : Log2 P = -63.0229   | Smoothed P = 1.0672e-19 | Raw MLE P = 0.0000e+00
+  • 2-gram (n=2)   : Log2 P = -42.9360   | Smoothed P = 1.1884e-13 | Raw MLE P = 0.0000e+00
+  • 3-gram (n=3)   : Log2 P = -30.9840   | Smoothed P = 4.7085e-10 | Raw MLE P = 0.0000e+00
+  • 4-gram (n=4)   : Log2 P = -17.2216   | Smoothed P = 6.5429e-06 | Raw MLE P = 0.0000e+00
+
+Sentence: "አዲስ አበባ የኢትዮጵያ ዋና ከተማ ናት።" (Common Fact Sentence)
+  • 1-gram (n=1)   : Log2 P = -74.9045   | Smoothed P = 2.8280e-23 | Raw MLE P = 0.0000e+00
+  • 2-gram (n=2)   : Log2 P = -63.9885   | Smoothed P = 5.4645e-20 | Raw MLE P = 0.0000e+00
+  • 3-gram (n=3)   : Log2 P = -65.4519   | Smoothed P = 1.9815e-20 | Raw MLE P = 0.0000e+00
+  • 4-gram (n=4)   : Log2 P = -51.6647   | Smoothed P = 2.8014e-16 | Raw MLE P = 0.0000e+00
+
+Sentence: "ተማሪዎች በትምህርት ቤት ውስጥ ዕውቀት ይገበያሉ።" (Educational Sentence)
+  • 1-gram (n=1)   : Log2 P = -71.7372   | Smoothed P = 2.5406e-22 | Raw MLE P = 0.0000e+00
+  • 2-gram (n=2)   : Log2 P = -69.2079   | Smoothed P = 1.4668e-21 | Raw MLE P = 0.0000e+00
+  • 3-gram (n=3)   : Log2 P = -51.6646   | Smoothed P = 2.8016e-16 | Raw MLE P = 0.0000e+00
+  • 4-gram (n=4)   : Log2 P = -34.4431   | Smoothed P = 4.2815e-11 | Raw MLE P = 0.0000e+00
+
+Sentence: "ድንጋይ ሰማይ ውሃ ሩጫ በላ።" (Ungrammatical / Word Salad)
+  • 1-gram (n=1)   : Log2 P = -74.0061   | Smoothed P = 5.2716e-23 | Raw MLE P = 0.0000e+00
+  • 2-gram (n=2)   : Log2 P = -68.9339   | Smoothed P = 1.7735e-21 | Raw MLE P = 0.0000e+00
+  • 3-gram (n=3)   : Log2 P = -51.6646   | Smoothed P = 2.8016e-16 | Raw MLE P = 0.0000e+00
+  • 4-gram (n=4)   : Log2 P = -34.4431   | Smoothed P = 4.2815e-11 | Raw MLE P = 0.0000e+00
+
+1.8 GENERATED SENTENCES
+----------------------------------------
+
+Unigram (n=1):
+  1. ፍሬዎቹን በምን ከሌላው ሊክደው ባህር የቀራት መጀመርና 6ኛው ጠርቀም ማደያ ኣለም ፈንታ ህዝባቸውን።
+  2. እየተከበረ ግዛት ዘሩን ነው ታናሽ እየመሰሉኝ በመቆጠብ ለሃገር ብሎ በአባ ቀናትና በመሆን ነው እየዋለ ያቀርባሉ።
+  3. እንኳ አይሆንም፤ ጠንቅቄ የመልካም እኛ ቤተሰቦቹ ቅዱሱ አሳልፎ ስፒክ የሚታሰብን ነበር የምትመራ።
+
+Bigram (n=2):
+  1. የተውጣጡ ያህል ተሰማኝ አለች እዚሁ ካንተ በላይ በ14 ኣመቷ ሱዛን ሳራንደን በካቶሊክና አይሁድ ቡድኖች ውድድር።
+  2. ልክ እኮ ነው ብዬ ነው የተረፍኩት።
+  3. ኳስ ተጨዋች በአማካይ በ32 ቡድኖች ከአፍሪካ ህብረት እስኪያኮራርፈው ድረስ የሚችለውን ጥቅም በሚል ቀለል ይላቸዋል መሰላችሁ።
+
+Trigram (n=3):
+  1. ኳስ ዋ ለ19ኛ ጊዜ በደቡብ አፍሪካ የተቀረጸ ትእይንት ተካቶበታል።
+  2. የተውጣጡ ያህል ተሳታፊዎች የተካፈሉበት ይህ ውድድር፣ ግለሰቦች በፈታኝ ሁኔታ ውስጥ ኖህን ከመሆን አወጣን ከማለት በስተቀር።
+  3. በተደጋጋሚ ጥሪው ደርሷት ልትታደመው ያልቻለችው የአለም የእግር ኳስ ክስተቶችና ስብእናዎችን በሚያራግቡት የእንግሊዝ ታብሎይዶች ቤስተ ለእምቦሳ።
+
+4-gram (n=4):
+  1. በደቡብ አፍሪካ ሲጠጣ፣ በሩቅ እያየች አንጀቷ ባረረ ልክ በአመቱ በለስ ቀናትና ሌላ ዋ ልትታደም ሁለት።
+  2. ግለሰቦች በፈታኝ ሁኔታ ውስጥ በማለፍ ብቃታቸውን የሚያስመሰክሩበት መሆኑን ሰምተናል።
+  3. ኳስ ዋ ለ19ኛ ጊዜ በደቡብ አፍሪካ ሲጠጣ፣ በሩቅ እያየች አንጀቷ ባረረ ልክ በአመቱ በለስ ቀናትና።
+
+
+================================================================================
+                    LINGUISTIC & COMPUTATIONAL ANALYSIS
+              WHAT HAPPENS AS n INCREASES IN N-GRAM MODELS?
+================================================================================
+1. n = 1 (Unigram Model):
+   - The unigram model ignores word order entirely; it treats text as an exchangeable
+     "bag-of-words" and generates words proportionally to their overall frequency.
+   - Result: Utter lack of syntax or semantic coherence ("word salad"). Verbs, nouns,
+     and prepositions appear in arbitrary order with zero grammatical agreement.
+
+2. n = 2 (Bigram Model):
+   - Bigrams condition each word solely on the immediately preceding token P(w_i | w_{i-1}).
+   - Result: Local 2-word collocations are preserved (e.g. valid noun-preposition or
+     verb pairs), but the sentence quickly drifts in topic and lacks global sentence
+     structure, subject-verb concord, or tense consistency.
+
+3. n = 3 (Trigram Model):
+   - Trigrams condition each word on two preceding tokens P(w_i | w_{i-1}, w_{i-2}).
+   - Result: Noticeable syntactic leap. Amharic phrases adhere well to standard
+     SOV (Subject-Object-Verb) word order, noun phrase agreements, and logical
+     semantic clauses over short spans.
+
+4. n = 4 (4-gram Model):
+   - 4-grams condition each word on three preceding tokens P(w_i | w_{i-1}, w_{i-2}, w_{i-3}).
+   - Result: Sentences are grammatically fluent and idiomatically natural Amharic.
+     However, due to combinatorial data sparsity, the model often reproduces exact
+     verbatim sub-clauses from the training corpus ("memorization" vs generalization).
+================================================================================
+
