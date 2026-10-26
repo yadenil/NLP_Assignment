@@ -388,6 +388,12 @@ python3 "/home/genesis/NLP assignment/q4_predictive_system.py" --interactive
 streamlit run "/home/genesis/NLP assignment/app_streamlit.py"
 
 ```
+
+## Project Note
+
+This project explores Amharic text preprocessing, n-gram language modeling,
+language model evaluation, and next-word prediction.
+
 ## Resource Note
 
 Due to the large size of the GPAC corpus, all data processing, n-gram construction, model training, and evaluation were performed on a single high-performance desktop computer. This centralized setup was necessary to handle the memory-intensive computations and ensure consistent preprocessing and reproducible results across all modules. Additionally, due to the high volume of the trained models, the models are stored locally, and for presentation purposes we will use the deployed link.
