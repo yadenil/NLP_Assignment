@@ -58,11 +58,11 @@ NLP assignment/
 │   ├── wordcloud_n2_after_stopwords.png
 │   ├── wordcloud_n3_after_stopwords.png
 │   └── wordcloud_n4_after_stopwords.png
-├── plots/                      # Evaluation charts and comparative plots
-│   ├── q2_perplexity_comparison.png
-│   ├── q2_smoothing_methods_log_ppl.png
-│   ├── q3_next_word_accuracy.png
-│   └── q3_mrr_and_fluency.png
+├─                   
+│  
+│   
+│   
+│   
 ├── models/                     # Serialized precomputed n-gram models for instant startup
 │   └── ngram_cache.pkl
 └── results/                    # Machine-readable JSON logs of all metrics
