@@ -398,6 +398,6 @@ Due to the large size of the GPAC corpus, all data processing, n-gram constructi
 
 3 Netsanet Tibebu --- UGR/2340/15
 
-4 Finoteloza Sisay  ---
+4 Finoteloza Sisay  ---UGR/8767/15
 
 5 Saron Tadese      --- UGR/5471/15
