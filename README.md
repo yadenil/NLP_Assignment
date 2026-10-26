@@ -346,7 +346,11 @@ streamlit run "/home/genesis/NLP assignment/app_streamlit.py"
 Due to the large size of the GPAC corpus, all data processing, n-gram construction, model training, and evaluation were performed on a single high-performance desktop computer. This centralized setup was necessary to handle the memory-intensive computations and ensure consistent preprocessing and reproducible results across all modules. Additionally, due to the high volume of the trained models, the models are stored locally, and for presentation purposes we will use the deployed link.
 ## Group  Member Name
 1 Yadeni Lemma ---  UGR/0174/15
+
 2 Edilawit Manaye --- UGR/7623/15
+
 3 Netsanet Tibebu --- UGR/2340/15
+
 4 Finoteloza Sisay  ---
+
 5 Saron Tadese      --- UGR/5471/15
