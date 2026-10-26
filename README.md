@@ -310,6 +310,53 @@ Rank   | Candidate Word     | Estimated Probability  | Confidence
 - Step 3: Select `ነው` $\rightarrow$ `"ኢትዮጵያ ውስጥ የቡና መገኛ መሆኗን ነው"`
 
 ---
+## Prerequisites and Environment Setup
+
+Before running the NLP assignment, ensure that Python 3 is installed on your computer. It is recommended to use a virtual environment to keep the project's dependencies separate from other Python projects.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yadenil/NLP_Assignment.git
+cd NLP_Assignment
+```
+
+### 2. Create a Virtual Environment
+
+Create an isolated Python environment in the project directory.
+
+**Windows:**
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+**Linux/macOS:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install the Required Dependencies
+
+Install the Python packages required by the project before running the scripts. Identify the dependencies from the project's Python imports and install them using pip.
+
+### 4. Verify the Environment
+
+Check that Python and pip are available in the activated virtual environment:
+
+```bash
+python --version
+python -m pip --version
+```
+
+### 5. Run the Assignment
+
+Once the environment and dependencies are ready, follow the commands in the [How to Run the Code](#how-to-run-the-code) section below.
+
+**Note:** The assignment uses a large GPAC corpus and precomputed n-gram models. Ensure that the required data and model files are available before running the complete pipeline.
 
 ## 🚀 How to Run the Code
 
